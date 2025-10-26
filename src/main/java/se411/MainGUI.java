@@ -269,7 +269,7 @@ public class MainGUI {
         
         VBox vbox = new VBox(15);
         vbox.setPadding(new Insets(30));
-        vbox.setAlignment(Pos.CENTER);
+        vbox.setAlignment(Pos.TOP_LEFT);
         
         Label title = new Label("Team Manager Application");
         title.setStyle("-fx-font-size: 18pt; -fx-font-weight: bold;");
@@ -278,9 +278,9 @@ public class MainGUI {
         devTeam.setStyle("-fx-font-size: 14pt; -fx-font-weight: bold;");
         
         Label member1 = new Label("Muddassir Khalidi, 222110775");
-        Label member2 = new Label("Abdulrahman Hamza, <student ID>");
-        Label member3 = new Label("Fahad Turki, <student ID>");
-        Label member4 = new Label("Assem Alhanash, <student ID>");
+        Label member2 = new Label("Abdulrahman Hamza, 221110874");
+        Label member3 = new Label("Fahad AlThunayyan, 220110853");
+        Label member4 = new Label("Assem Alhanash, 220110538");
         
         Button closeButton = new Button("Close");
         closeButton.setOnAction(e -> aboutStage.close());
