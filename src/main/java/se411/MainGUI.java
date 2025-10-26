@@ -50,12 +50,12 @@ public class MainGUI {
         
         teamMenu.getItems().addAll(addTeamItem, editTeamItem, deleteTeamItem);
         
-        Menu helpMenu = new Menu("Help");
-        MenuItem aboutItem = new MenuItem("About");
+        Menu aboutMenu = new Menu("About");
+        MenuItem aboutItem = new MenuItem("Team Info");
         aboutItem.setOnAction(e -> showAboutWindow());
-        helpMenu.getItems().add(aboutItem);
+        aboutMenu.getItems().add(aboutItem);
         
-        menuBar.getMenus().addAll(fileMenu, teamMenu, helpMenu);
+        menuBar.getMenus().addAll(fileMenu, teamMenu, aboutMenu);
         
         // Table
         table = new TableView<>();
