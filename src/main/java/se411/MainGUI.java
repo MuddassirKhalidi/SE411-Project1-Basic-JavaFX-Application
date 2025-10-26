@@ -5,7 +5,18 @@ import javafx.collections.ObservableList;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
 import javafx.scene.Scene;
-import javafx.scene.control.*;
+import javafx.scene.control.Alert;
+import javafx.scene.control.Button;
+import javafx.scene.control.ButtonBar;
+import javafx.scene.control.ButtonType;
+import javafx.scene.control.Dialog;
+import javafx.scene.control.Label;
+import javafx.scene.control.Menu;
+import javafx.scene.control.MenuBar;
+import javafx.scene.control.MenuItem;
+import javafx.scene.control.TableColumn;
+import javafx.scene.control.TableView;
+import javafx.scene.control.TextField;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.HBox;
@@ -279,7 +290,7 @@ public class MainGUI {
         
         Label member1 = new Label("Muddassir Khalidi, 222110775");
         Label member2 = new Label("Abdulrahman Hamza, <student ID>");
-        Label member3 = new Label("Fahad Turki, <student ID>");
+        Label member3 = new Label("Fahad AlThunayyan, 220110853");
         Label member4 = new Label("Assem Alhanash, <student ID>");
         
         Button closeButton = new Button("Close");
