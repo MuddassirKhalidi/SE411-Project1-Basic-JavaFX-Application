@@ -2,7 +2,10 @@ package se411;
 
 import javafx.application.Application;
 import javafx.stage.Stage;
-
+import se411.client.MainGUI;
+import se411.client.TeamDataAccess;
+import se411.util.Logger;
+import se411.util.*;
 public class TeamManagerApp extends Application {
     
     @Override

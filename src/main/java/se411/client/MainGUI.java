@@ -1,4 +1,4 @@
-package se411;
+package se411.client;
 
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -11,7 +11,9 @@ import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
-
+import se411.model.Team;
+import se411.util.Logger;
+import se411.util.*;
 public class MainGUI {
     private Stage stage;
     private TeamDataAccess teamDataAccess;

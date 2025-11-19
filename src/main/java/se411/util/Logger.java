@@ -1,4 +1,4 @@
-package se411;
+package se411.util;
 
 import java.io.FileWriter;
 import java.io.IOException;
